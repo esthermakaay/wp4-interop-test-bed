@@ -8,7 +8,31 @@ Audience: WP4 - Testing Group, ITB platform developers and maintainers, Testing 
 
 **Table of Contents**
 
-[TOC]
+- [EUDI Wallet Interoperability Test Bed](#eudi-wallet-interoperability-test-bed)
+  - [Reference Implementation Specification](#reference-implementation-specification)
+- [Revision History](#revision-history)
+- [1.	Introduction](#1introduction)
+  - [1.1	Purpose](#11purpose)
+  - [1.2	Scope](#12scope)
+  - [1.3	What the ITB is](#13what-the-itb-is)
+  - [1.4	Architectural principles](#14architectural-principles)
+- [2.	Architecture and separation of concerns](#2architecture-and-separation-of-concerns)
+  - [2.1	ITB platform and user interface](#21itb-platform-and-user-interface)
+  - [2.2	Reference implementation software (Issuer/ Holder/ Verifier)](#22reference-implementation-software-issuer-holder-verifier)
+  - [2.3	Test cases and profiles](#23test-cases-and-profiles)
+  - [2.4	Summary of layer boundaries and ownership](#24summary-of-layer-boundaries-and-ownership)
+- [3. Integrations as reference implementor](#3-integrations-as-reference-implementor)
+  - [3.1. Degrees of Freedom of the Integration API](#31-degrees-of-freedom-of-the-integration-api)
+  - [3.2	Issuer](#32issuer)
+  - [3.3	Holder](#33holder)
+  - [3.4	Verifier / Relying Party](#34verifier--relying-party)
+  - [3.5	Logging Endpoints Verifier/ Relying Party/Issuer/Holder Wallet](#35logging-endpoints-verifier-relying-partyissuerholder-wallet)
+  - [3.6	Security considerations](#36security-considerations)
+- [4.	Profiles and versions](#4profiles-and-versions)
+- [5.	Optional capabilities](#5optional-capabilities)
+- [6.	Developer workflows](#6developer-workflows)
+- [Appendix A: Example scenario](#appendix-a-example-scenario)
+- [Appendix B: OpenAPI yaml](#appendix-b-openapi-yaml)
 
 # Revision History
 
