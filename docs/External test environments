@@ -1,0 +1,28 @@
+This document lists the external test environments that we are aware of.
+Please keep in mind that information is being updated continuously and update this information if you can.
+
+We expect most of these environments to have a specific trust infrastructural setup. This means that you probably need to adapt your implementations to meet the requirements set out by them to engage. Not all environments are open to everyone. 
+
+The WE BUILD test environment (ITB) is handled independently of external test environments.
+
+## Germany
+https://sandbox.eudi-wallet.org/ 
+
+## France
+https://playground.france-identite.gouv.fr/
+
+Information from December 2025: We are releasing a specific 𝘀𝗮𝗻𝗱𝗯𝗼𝘅 𝗯𝘂𝗶𝗹𝗱 of France Identité, currently available on Android, to support early testing of 𝗣𝗜𝗗 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻, both in 𝗽𝗿𝗼𝘅𝗶𝗺𝗶𝘁𝘆 and 𝗼𝗻𝗹𝗶𝗻𝗲.
+The iOS version will be released shortly.
+
+This build is designed for hands-on experimentation: presenting a PID to real verifiers, exploring user journeys, and validating concrete end-to-end flows ahead of the 𝗘𝘂𝗿𝗼𝗽𝗲𝗮𝗻 𝗗𝗶𝗴𝗶𝘁𝗮𝗹 𝗜𝗱𝗲𝗻𝘁𝗶𝘁𝘆 𝗪𝗮𝗹𝗹𝗲𝘁 (𝗘𝗨𝗗𝗜𝗪) deployment.
+What this sandbox build enables:
+• 𝗣𝗜𝗗 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗽𝗿𝗼𝘅𝗶𝗺𝗶𝘁𝘆 𝘀𝗰𝗲𝗻𝗮𝗿𝗶𝗼𝘀, following ISO 18013-5
+• 𝗣𝗜𝗗 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗿𝗲𝗺𝗼𝘁𝗲 𝗳𝗹𝗼𝘄𝘀, following ISO 18013-7 (Annex B)
+We are actively working on adding 𝗺𝗼𝗿𝗲 𝗰𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 and 𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 𝗽𝗿𝗼𝘁𝗼𝗰𝗼𝗹𝘀 to progressively expand testing possibilities.
+
+𝗛𝗼𝘄 𝘁𝗼 𝗴𝗲𝘁 𝗶𝘁:
+Fill out the form https://cloud.partenaires.france-identite.gouv.fr/apps/forms/s/YYqNTpDYdLyCZiGe6sC3TX9k?trk=public_post_comment-text
+Test documentation: https://playground.france-identite.gouv.fr/doc/marketplace/wallets/fin/
+
+##Sweden
+Sweden has a limited sandbox: https://wallet.sandbox.digg.se/
