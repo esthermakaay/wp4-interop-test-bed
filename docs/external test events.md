@@ -1,5 +1,6 @@
 This document lists the external test events that we are aware of.
-Add any new events not yet listed that you are aware of.
+Please add any new events not yet listed that you are aware of.
+
 
 # CSC Plugtest Event - March 2026 - Bucharest
 The Cloud Signature Consortium (CSC) will host an **in-person** Plugtest Event on 17/18 March in Bucharest.
