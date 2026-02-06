@@ -1,12 +1,9 @@
 This document lists the external test environments that we are aware of.
-Please keep in mind that information is being updated continuously and update this information if you can.
+Please keep in mind that information is being updated continuously. If you have new information, please update this information if you can.
 
 We expect most of these environments to have a specific trust infrastructural setup. This means that you probably need to adapt your implementations to meet the requirements set out by them to engage. Not all environments are open to everyone. 
 
 The WE BUILD test environment (ITB) is handled independently of external test environments.
-
-## Germany
-https://sandbox.eudi-wallet.org/ 
 
 ## France
 https://playground.france-identite.gouv.fr/
@@ -22,7 +19,23 @@ We are actively working on adding 𝗺𝗼𝗿𝗲 𝗰𝗿𝗲𝗱𝗲𝗻𝘁�
 
 𝗛𝗼𝘄 𝘁𝗼 𝗴𝗲𝘁 𝗶𝘁:
 Fill out the form https://cloud.partenaires.france-identite.gouv.fr/apps/forms/s/YYqNTpDYdLyCZiGe6sC3TX9k?trk=public_post_comment-text
-Test documentation: https://playground.france-identite.gouv.fr/doc/marketplace/wallets/fin/
+Testing and technical documentation: https://playground.france-identite.gouv.fr/doc/
+Documentation on the France Identité build: https://playground.france-identite.gouv.fr/doc/marketplace/wallets/fin/
 
-##Sweden
-Sweden has a limited sandbox: https://wallet.sandbox.digg.se/
+## Germany
+https://sandbox.eudi-wallet.org/ 
+
+The sandbox supports digital identification based on personal identification data (PID). 
+Documentation: https://bmi.usercontent.opencode.de/eudi-wallet/eidas2/ecosystem_knowledge_centre/
+
+## Lithuania
+Procivis has been awarded the contract to provide Lithuania’s EUDI Wallet sandbox. Working with SDSA, the State Digital Solutions Agency of Lithuania, Procivis will build
+the national testbed to drive Lithuania’s digital identity activities and ensure readiness in advance of the EU-wide launch. 
+The sandbox will enable testing of seamless digital identity verification for national and cross-border use cases including accessing public services, travel, and car rental. 
+
+## Norway
+The Norwegian department of digitalization (DigDir) has published a digital wallet sandbox
+https://docs.digdir.no/docs/lommebok/lommebok_om.html
+
+## Sweden
+Sweden has a limited sandbox, which is currently undergoing fundamental reconstruction. We will provide information when it will become available again.
